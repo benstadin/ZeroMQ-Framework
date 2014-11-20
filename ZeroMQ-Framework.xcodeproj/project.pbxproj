@@ -808,7 +808,7 @@
 			name = "ZeroMQ-FrameworkTests";
 			productName = "ZeroMQ-FrameworkTests";
 			productReference = D7C75F9A17E5BFF00018AB91 /* ZeroMQ-FrameworkTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -816,6 +816,7 @@
 		D7C75F8117E5BFF00018AB91 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0610;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Dev;
 			};

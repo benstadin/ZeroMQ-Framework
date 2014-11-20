@@ -40,3 +40,6 @@ Files that need to be public in the framework should be added in the: Build Phas
 ### czmq
 * Fixed to build for iOS
 
+### Xcode 6.1
+* update to OCUnit
+
