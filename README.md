@@ -37,6 +37,12 @@ Files that need to be public in the framework should be added in the: Build Phas
 **Note**: czmq_prelude.h: #include <crt_externs.h> // commented out, because removed from SDK by Apple
 
 ## Brian's Notes
+### Configure zeromq
+* First run `./autogen.sh` to create `./configure`.  Then run `./configure`
+
+### Configure czmq
+* First run `./autogen.sh` to create `./configure`.  Then run `PKG_CONFIG_PATH=../zeromq4-x/src ./configure`
+
 ### czmq
 * Fixed to build for iOS
 
