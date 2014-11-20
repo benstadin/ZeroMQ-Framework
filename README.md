@@ -35,3 +35,8 @@ Right-click on the lib Product and “Show in Finder”. Go up one directory and
 Files that need to be public in the framework should be added in the: Build Phase for the target Aggregate: ZeroMQ-iOS: Copy Files. Justin also warns (which I encountered), *“Ensure that the header files are copied into place* [at compile time] *(XCode is known to mess this up on occasion)”*.
 
 **Note**: czmq_prelude.h: #include <crt_externs.h> // commented out, because removed from SDK by Apple
+
+## Brian's Notes
+### czmq
+* Fixed to build for iOS
+
