@@ -23,6 +23,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		D3AF6F641A2450C50077DE94 /* zdir_patch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3AF6F611A244F7D0077DE94 /* zdir_patch.h */; };
+		D3AF6F681A2451080077DE94 /* zdigest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3AF6F671A2450FB0077DE94 /* zdigest.h */; };
+		D3AF6F751A2451720077DE94 /* zlog.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3AF6F6B1A2451420077DE94 /* zlog.h */; };
+		D3AF6F761A24518A0077DE94 /* zmonitor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3AF6F6C1A2451420077DE94 /* zmonitor.h */; };
+		D3AF6F771A2451960077DE94 /* zproxy.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3AF6F6D1A2451420077DE94 /* zproxy.h */; };
+		D3AF6F781A2451A70077DE94 /* zrex.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3AF6F6E1A2451420077DE94 /* zrex.h */; };
+		D3AF6F791A2451B90077DE94 /* zuuid.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3AF6F6F1A2451420077DE94 /* zuuid.h */; };
 		D7A218E4183FB8F5002F115C /* zauth.c in Sources */ = {isa = PBXBuildFile; fileRef = D7A218CC183FB8F5002F115C /* zauth.c */; };
 		D7A218E6183FB8F5002F115C /* zcert.c in Sources */ = {isa = PBXBuildFile; fileRef = D7A218CE183FB8F5002F115C /* zcert.c */; };
 		D7A218E7183FB8F5002F115C /* zcertstore.c in Sources */ = {isa = PBXBuildFile; fileRef = D7A218CF183FB8F5002F115C /* zcertstore.c */; };
@@ -184,20 +191,27 @@
 				D7A2191A183FC7CA002F115C /* zclock.h in CopyFiles */,
 				D7A2191B183FC7CA002F115C /* zconfig.h in CopyFiles */,
 				D7A2191C183FC7CA002F115C /* zctx.h in CopyFiles */,
+				D3AF6F681A2451080077DE94 /* zdigest.h in CopyFiles */,
 				D7A2191D183FC7CA002F115C /* zdir.h in CopyFiles */,
+				D3AF6F641A2450C50077DE94 /* zdir_patch.h in CopyFiles */,
 				D7A2191E183FC7CA002F115C /* zfile.h in CopyFiles */,
 				D7A2191F183FC7CA002F115C /* zframe.h in CopyFiles */,
 				D7A21920183FC7CA002F115C /* zhash.h in CopyFiles */,
 				D7A21921183FC7CA002F115C /* zlist.h in CopyFiles */,
+				D3AF6F751A2451720077DE94 /* zlog.h in CopyFiles */,
 				D7A21922183FC7CA002F115C /* zloop.h in CopyFiles */,
+				D3AF6F761A24518A0077DE94 /* zmonitor.h in CopyFiles */,
 				D7A21923183FC7CA002F115C /* zmsg.h in CopyFiles */,
 				D7A21924183FC7CA002F115C /* zmutex.h in CopyFiles */,
 				D7A21925183FC7CA002F115C /* zpoller.h in CopyFiles */,
+				D3AF6F771A2451960077DE94 /* zproxy.h in CopyFiles */,
+				D3AF6F781A2451A70077DE94 /* zrex.h in CopyFiles */,
 				D7A21926183FC7CA002F115C /* zsocket.h in CopyFiles */,
 				D7A21927183FC7CA002F115C /* zsockopt.h in CopyFiles */,
 				D7A21928183FC7CA002F115C /* zstr.h in CopyFiles */,
 				D7A21929183FC7CA002F115C /* zsys.h in CopyFiles */,
 				D7A2192A183FC7CA002F115C /* zthread.h in CopyFiles */,
+				D3AF6F791A2451B90077DE94 /* zuuid.h in CopyFiles */,
 				D7A21900183FBE99002F115C /* czmq.h in CopyFiles */,
 				D7E4D1DF182FA2C900764732 /* zmq.h in CopyFiles */,
 				D7E4D1E0182FA2C900764732 /* zmq_utils.h in CopyFiles */,
@@ -207,6 +221,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D3AF6F611A244F7D0077DE94 /* zdir_patch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zdir_patch.h; sourceTree = "<group>"; };
+		D3AF6F671A2450FB0077DE94 /* zdigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zdigest.h; sourceTree = "<group>"; };
+		D3AF6F6B1A2451420077DE94 /* zlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlog.h; sourceTree = "<group>"; };
+		D3AF6F6C1A2451420077DE94 /* zmonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmonitor.h; sourceTree = "<group>"; };
+		D3AF6F6D1A2451420077DE94 /* zproxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zproxy.h; sourceTree = "<group>"; };
+		D3AF6F6E1A2451420077DE94 /* zrex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zrex.h; sourceTree = "<group>"; };
+		D3AF6F6F1A2451420077DE94 /* zuuid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zuuid.h; sourceTree = "<group>"; };
 		D7A218A9183FB8CA002F115C /* czmq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = czmq.h; sourceTree = "<group>"; };
 		D7A218AA183FB8CA002F115C /* czmq_prelude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = czmq_prelude.h; sourceTree = "<group>"; };
 		D7A218AB183FB8CA002F115C /* zauth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zauth.h; sourceTree = "<group>"; };
@@ -472,20 +493,27 @@
 				D7A218B0183FB8CA002F115C /* zclock.h */,
 				D7A218B1183FB8CA002F115C /* zconfig.h */,
 				D7A218B2183FB8CA002F115C /* zctx.h */,
+				D3AF6F671A2450FB0077DE94 /* zdigest.h */,
 				D7A218B3183FB8CA002F115C /* zdir.h */,
+				D3AF6F611A244F7D0077DE94 /* zdir_patch.h */,
 				D7A218B4183FB8CA002F115C /* zfile.h */,
 				D7A218B5183FB8CA002F115C /* zframe.h */,
 				D7A218B6183FB8CA002F115C /* zhash.h */,
 				D7A218B7183FB8CA002F115C /* zlist.h */,
+				D3AF6F6B1A2451420077DE94 /* zlog.h */,
 				D7A218B8183FB8CA002F115C /* zloop.h */,
+				D3AF6F6C1A2451420077DE94 /* zmonitor.h */,
 				D7A218B9183FB8CA002F115C /* zmsg.h */,
 				D7A218BA183FB8CA002F115C /* zmutex.h */,
 				D7A218BB183FB8CA002F115C /* zpoller.h */,
+				D3AF6F6D1A2451420077DE94 /* zproxy.h */,
+				D3AF6F6E1A2451420077DE94 /* zrex.h */,
 				D7A218BC183FB8CA002F115C /* zsocket.h */,
 				D7A218BD183FB8CA002F115C /* zsockopt.h */,
 				D7A218BE183FB8CA002F115C /* zstr.h */,
 				D7A218BF183FB8CA002F115C /* zsys.h */,
 				D7A218C0183FB8CA002F115C /* zthread.h */,
+				D3AF6F6F1A2451420077DE94 /* zuuid.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
